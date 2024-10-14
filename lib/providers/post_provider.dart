@@ -5,13 +5,15 @@ class PostProvider with ChangeNotifier {
   final List<Post> _posts = [
     Post(
         id: '1',
-        userId: '2',
-        content: 'First post of user 2',
+        userId: '3',
+        userName: 'Katherine Adams',
+        content: 'We are ready to next iOS release.',
         timestamp: DateTime.now()),
     Post(
         id: '3',
-        userId: '3',
-        content: 'Another post of other friend',
+        userId: '2',
+        userName: 'Craig Federighi',
+        content: 'Excited to announce new iPhone 16 Ultra',
         timestamp: DateTime.now().subtract(const Duration(hours: 1))),
   ];
 
